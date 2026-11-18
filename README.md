@@ -17,6 +17,11 @@ jadwal belajar
 - HTML5
 - CSS3 (Flexbox dan media query)
 - Git dan GitHub
+<<<<<<< HEAD
+=======
+- VS Code
+- Live Server
+>>>>>>> 9f250b7978961c8d53531e7e31d897119af116cc
 
 ## Tautan
 - Website: menyusul setelah *deploy* ke Vercel
