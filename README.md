@@ -14,6 +14,7 @@ jadwal belajar
 - HTML5
 - CSS3 (Flexbox dan media query)
 - Git dan GitHub
+- VS Code dan Live Server
 ## Tautan
 - Website: menyusul setelah *deploy* ke Vercel
 - Dibuat oleh: Haemes Pintarro Rirajayadi, SMKN 1 Jenangan Ponorogo
