@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Haemes P.R | Kalkulator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <header>
+        <h1>Haemess Pintarro Rirajayadi</h1>
+        <p>Siswa kelas X STMJ, calon Web Developer di kelas industri UBIG</p>
+
+        <div class="container navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Kembali Ke Beranda</a></li>
+                    <li><a href="proyek.html">Proyek</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="kartu">
+            <h2>Kalkulator Nilai</h2>
+
+            <p>Masukkan nilai tugas, UTS, dan UAS, lalu tekan tombol Hitung.</p>
+
+            <form>
+                <label for="tugas">Nilai Tugas</label>
+                <input type="number" id="tugas" required>
+
+                <label for="uts">Nilai UTS</label>
+                <input type="number" id="uts" required>
+
+                <label for="uas">Nilai UAS</label>
+                <input type="number" id="uas" required>
+
+                <button type="button" id="hitung">Hitung</button>
+            </form>
+
+            <p id="hasil"></p>
+        </section>
+    </main>
+
+    <script src="js/kalkulator.js"></script>
+    <footer>
+        <p>Email:
+            <a href="mailto:habilpintarro@gmail.com">
+                habilpintarro@gmail.com</a> |
+            <a href="https://github.com/ayamgeprekrebus" target="_blank">GitHub</a> |
+            <a href="https://www.youtube.com/@haiyaam" target="_blank">YouTube</a>
+        </p>
+        <p>&copy; 2026 Haemes P.R.
+            Dibuat sambil belajar di Kelas Industri UBIG.</p>
+    </footer>
+</body>
+
+</html>
