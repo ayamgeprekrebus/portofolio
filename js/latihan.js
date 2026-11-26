@@ -2,7 +2,7 @@
 // Kalkulator nilai rapor di Console
 
 // 1. Pesan pertama ke Console
-console.log("Halo, saya Habil!");
+console.log("Halo, saya Habil!!");
 console.log("Ini latihan JavaScript pertamaku.");
 
 // 2. Data siswa
