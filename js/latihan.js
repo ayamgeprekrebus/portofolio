@@ -14,8 +14,7 @@ let nilaiUts = 78;
 let nilaiUas = 89;
 let kehadiran = 90;
 console.log(`Nama: ${nama}, kelas ${kelas}`);
-console.log(`Nilai tugas ${nilaiTugas}, UTS ${nilaiUts}, UAS $
-{nilaiUas}`);
+console.log(`Nilai tugas ${nilaiTugas}, UTS ${nilaiUts}, UAS ${nilaiUas}`);
 
 // 3. Fungsi
 const hitungRataRata = (tugas, uts, uas) => (tugas + uts + uas) / 3;
@@ -32,8 +31,7 @@ function predikat(nilai) {
 }
 function rapor(namaSiswa, tugas, uts, uas) {
     const rata = hitungRataRata(tugas, uts, uas);
-    return `${namaSiswa}: rata-rata ${rata}, predikat $
-{predikat(rata)}`;
+    return `${namaSiswa}: rata-rata ${rata}, predikat ${predikat(rata)}`;
 }
 // 4. Hasil nilai Habil
 const rataRata = hitungRataRata(nilaiTugas, nilaiUts, nilaiUas);
@@ -59,4 +57,4 @@ console.log(`predikat(69) = ${predikat(69)}`); // D
 // 6. Rapor beberapa siswa
 console.log(rapor("Habil", 85, 78, 89));
 console.log(rapor("Hapis", 92, 88, 96));
-console.log(rapor("Irpan", 70, 65, 72));
+console.log(rapor("Irpan", 95, 90, 94));
